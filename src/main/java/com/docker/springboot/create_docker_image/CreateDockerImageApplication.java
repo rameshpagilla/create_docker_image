@@ -12,6 +12,7 @@ public class CreateDockerImageApplication {
 
 	@GetMapping("/createDockerImage")
 	public String getMessage(){
+		System.out.println("first docker image");
 		return "Creating Docker Image from Spring Boot";
 	}
 
